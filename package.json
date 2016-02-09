@@ -1,0 +1,19 @@
+{
+  "name": "@f/almost-equal",
+  "description": "Check if two numbers are almost equal",
+  "repository": "git://github.com/micro-js/almost-equal.git",
+  "version": "0.1.0",
+  "keywords": [
+    "micro-js",
+    "value equality"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
