@@ -27,9 +27,9 @@ almostEqual(1, 2.1, 1) // -> false
 
 - `a` - First value to compare.
 - `b` - second value to compare.
-- `margin` - Margin between two numbers which is tolerated and seen as "almost equal".
+- `margin` - Margin between two numbers which is tolerated and can be seen as "almost equal".
 
-**Returns:** A boolean if the two values `a` and `b` are almost equal.
+**Returns:** A boolean which determines if the two values `a` and `b` are almost equal.
 
 ## License
 
